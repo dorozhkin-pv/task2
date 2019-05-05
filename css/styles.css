@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding: 0 30px 10px 15px;
+    margin-bottom: 15px;
+    border: 0.2px solid;
+}
+.inp1 {
+    width: 100%;
+}
+p {
+    font-weight: bold;
+}
+.container {
+    min-width: 300px;
+}
+.item {
+    margin-top: 20px;
+}
+.res{
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.go {
+    padding: 2px 5px;
+}
+.pole {
+    width: 30%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
